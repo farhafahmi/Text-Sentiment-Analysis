@@ -1,17 +1,34 @@
-# Text Sentiment Analysis
+# Text Sentiment Analysis 📚✨
 
-This repository contains my exploration of text sentiment analysis using three popular Python NLP libraries: VADER, TextBlob, and Flair. The main notebook (`Task3.ipynb`) demonstrates how to analyze the sentiment of a given sentence and its individual words, compare results from multiple tools, and visualize the outputs as a heatmap for better understanding.
-
-The goal of this project is to understand how different sentiment analysis techniques interpret the same piece of text. VADER (from NLTK) is great for social media or short texts; TextBlob provides polarity and subjectivity; and Flair uses deep learning models for more advanced sentiment predictions.
-
-Inside the notebook, you’ll find step-by-step cells to:
-- Import and set up each tool
-- Tokenize the input sentence
-- Run sentiment predictions
-- Visualize the sentiment scores side-by-side
-- Save the results for further analysis
-
-This repository can help beginners learn how to integrate multiple NLP tools in Python, compare their outputs, and display the results clearly. Feel free to fork it, adapt it to your own data, or expand it with more NLP techniques.
+Welcome to the **Text Sentiment Analysis** project!  
+This repository demonstrates how to analyze the emotional tone of text using three popular NLP sentiment analysis tools: **VADER**, **TextBlob**, and **Flair**.  
+It was created as part of my hands-on learning journey with Natural Language Processing and Python.
 
 ---
-✨ Happy Learning!
+
+## 📌 Project Overview
+
+The goal of this notebook is to compare different sentiment analyzers on the same sentence, see how they handle overall text vs individual words, and visualize their outputs side-by-side.  
+I used a sample sentence:  
+> *"I really like you but you can be so dumb sometimes."*  
+Each word is analyzed for sentiment polarity using:
+
+- **VADER** (Valence Aware Dictionary for sEntiment Reasoning) — great for social media & short text.
+- **TextBlob** — simple NLP tool for polarity and subjectivity.
+- **Flair** — a powerful contextual NLP library using pre-trained embeddings.
+
+---
+
+## ✅ What’s inside
+
+- 📌 `Task3.ipynb`: The main Colab notebook with all steps.
+- 🔍 Heatmaps to compare word-level sentiment scores.
+- 📊 Visual explanations to understand how different tools interpret the same text.
+- 📁 Clean and reproducible code for learning & experiments.
+
+---
+
+## 🚀 How to run
+
+1. Clone this repo or open the notebook directly in **Google Colab**.
+2. Make sure you install required libraries:
